@@ -1,0 +1,22 @@
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    header
+      nav(class= "navbar navbar-default")
+        ul(class= "nav navbar-nav")
+          li 
+            a(href="/") Home
+          li 
+            a(href="/about") About
+          li 
+            a(href="/contact") Contact
+    section#wrapper!= body
+        footer(class= "jumbotron center")
+          div(class= "container")
+            h1(class= "text-center") This is a trial template
+
+            p(class= "text-center") I'm trying to develop a more refined knowledge of bootstrap, webdev, and node.js!
+          div(class= "container text-center")
+            div(class= "btn btn-default btn-active text-center") Link Soon
